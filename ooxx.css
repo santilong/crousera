@@ -1,0 +1,104 @@
+.menu {
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .i1 {
+        float: left;
+        border: 1px solid black;
+        width: 30%;
+        height: 250px;
+        margin:1.5%;
+        position: relative;
+        background-color: darkgrey;
+    }
+    .i2 {
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        position: absolute;
+        right:0;
+        top:0;
+    }
+    .i3 {
+        position: absolute;
+        top:35px;
+    }
+    .i4 {
+        float: left;
+        border: 1px solid black;
+        width: 30%;
+        height: 250px;
+        margin:1.5%;
+        position: relative;
+        background-color: darkgrey;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .i1 {
+        float: left;
+        border: 1px solid black;
+        width: 44%;
+        height: 250px;
+        margin:10px 18px 10px 18px;
+        position: relative;
+        background-color: darkgrey;
+    }
+    .i2 {
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        position: absolute;
+        right:0;
+        top:0;
+    }
+    .i3 {
+        position: absolute;
+        top:35px;
+    }
+    .clear {
+        clear: both;
+    }
+    .i4 {
+        border: 1px solid black;
+        width: 93%;
+        height: 250px;
+        margin:10px 20px 10px 20px;
+        position: relative;
+        background-color: darkgrey;
+    }
+}
+
+@media (max-width: 767px) {
+    .i1 {
+        float: left;
+        border: 1px solid black;
+        width: 95%;
+        height: 250px;
+        margin:5px 10px 5px 10px;
+        position: relative;
+        background-color: darkgrey;
+    }
+    .i2 {
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        position: absolute;
+        right:0;
+        top:0;
+    }
+    .i3 {
+        position: absolute;
+        top:35px;
+    }
+    .clear {
+        clear: both;
+    }
+    .i4 {
+        border: 1px solid black;
+        width: 95%;
+        height: 250px;
+        margin:5px 10px 5px 10px;
+        position: relative;
+        background-color: darkgrey;
+    }
+}
